@@ -1,4 +1,4 @@
-# NSW Tenant Support 技能
+# NSW Tenant Support Skill
 
 [English](README.md) | **简体中文**
 
