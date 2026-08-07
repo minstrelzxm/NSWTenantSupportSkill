@@ -63,7 +63,7 @@ Two routes:
 
 ```bash
 # Personal (all projects)
-git clone https://github.com/minstrelzxm/NSWTenantSupportSkill.git
+git clone https://github.com/strayharp/NSWTenantSupportSkill.git
 cp -r NSWTenantSupportSkill/nsw-tenant-support ~/.claude/skills/
 
 # Or project-scoped
@@ -89,7 +89,7 @@ Several agents have adopted the same standard:
 - **Codex CLI** reads skills from `.agents/skills/` by default — copy the folder there.
 - **Cursor** supports skills through its plugin system; `.agents/skills/` is also recognised.
 - **VS Code (Copilot)** recognises both `.claude/skills/` and `.agents/skills/`, with extra paths configurable via `chat.agentSkillsLocations`.
-- Community tooling exists for cross-agent installs (e.g. `npx agent-skills-cli add minstrelzxm/NSWTenantSupportSkill --agent codex`), though a manual folder copy is always sufficient.
+- Community tooling exists for cross-agent installs (e.g. `npx agent-skills-cli add strayharp/NSWTenantSupportSkill --agent codex`), though a manual folder copy is always sufficient.
 
 Paths and support levels change quickly — check your agent's own documentation if the skill doesn't appear.
 

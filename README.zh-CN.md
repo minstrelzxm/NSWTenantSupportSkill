@@ -63,7 +63,7 @@ NSWTenantSupportSkill/
 
 ```bash
 # 个人安装(对所有项目生效)
-git clone https://github.com/minstrelzxm/NSWTenantSupportSkill.git
+git clone https://github.com/strayharp/NSWTenantSupportSkill.git
 cp -r NSWTenantSupportSkill/nsw-tenant-support ~/.claude/skills/
 
 # 或按项目安装
@@ -89,7 +89,7 @@ cp -r NSWTenantSupportSkill/nsw-tenant-support .claude/skills/
 - **Codex CLI** 默认从 `.agents/skills/` 读取技能——把文件夹复制到那里即可。
 - **Cursor** 通过其插件系统支持技能;`.agents/skills/` 也会被识别。
 - **VS Code(Copilot)** 同时识别 `.claude/skills/` 和 `.agents/skills/`,并可通过 `chat.agentSkillsLocations` 配置额外路径。
-- 社区已有跨智能体安装工具(例如 `npx agent-skills-cli add minstrelzxm/NSWTenantSupportSkill --agent codex`),不过手动复制文件夹永远够用。
+- 社区已有跨智能体安装工具(例如 `npx agent-skills-cli add strayharp/NSWTenantSupportSkill --agent codex`),不过手动复制文件夹永远够用。
 
 各平台的路径和支持程度变化很快——如果技能没有出现,请查阅你所用智能体自己的文档。
 
