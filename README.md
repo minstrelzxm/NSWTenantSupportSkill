@@ -1,5 +1,7 @@
 # NSW Tenant Support skill
 
+**English** | [简体中文](README.zh-CN.md)
+
 A skill for Anthropic's Claude that helps renters in New South Wales, Australia work through tenancy problems — repairs that never happen, agent harassment, termination notices, bond disputes, rent increases — by routing them to the right pathway, helping them build a written record, and always connecting them with **free specialist advice services**.
 
 > **If you need help right now, you don't need this repository.**
@@ -29,6 +31,7 @@ Built-in guards: deadline-first triage (retaliation and revocation windows expir
 ```
 NSWTenantSupportSkill/
 ├── README.md                   # This file
+├── README.zh-CN.md             # 中文版本
 ├── LICENSE                     # MIT
 └── nsw-tenant-support/         # The skill (Agent Skills open standard)
     ├── SKILL.md                # Workflow, ground rules, routing logic
