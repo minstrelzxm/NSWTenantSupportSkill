@@ -32,12 +32,11 @@ NSWTenantSupportSkill/
 ├── LICENSE                     # MIT
 └── nsw-tenant-support/         # The skill (Agent Skills open standard)
     ├── SKILL.md                # Workflow, ground rules, routing logic
-    ├── references/
-    │   ├── legislation.md      # Situation → section map of the RTA 2010, deadlines table,
-    │   │                       #   live-verification protocol, agent conduct rules
-    │   ├── resources.md        # Verified links & phone numbers for every service, by stage
-    │   └── letters.md          # Letter anatomy, confirming-email pattern, drafting variants
-    └── evals/evals.json        # Test prompts used during development
+    └── references/
+        ├── legislation.md      # Situation → section map of the RTA 2010, deadlines table,
+        │                       #   live-verification protocol, agent conduct rules
+        ├── resources.md        # Verified links & phone numbers for every service, by stage
+        └── letters.md          # Letter anatomy, confirming-email pattern, drafting variants
 ```
 
 The packaged, installable build (`nsw-tenant-support.skill`) is attached to each [Release](../../releases) rather than committed to the repository.
