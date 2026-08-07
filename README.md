@@ -27,7 +27,7 @@ Built-in guards: deadline-first triage (retaliation and revocation windows expir
 ## Repository contents
 
 ```
-nsw-tenant-support-skill/
+NSWTenantSupportSkill/
 ├── README.md                   # This file
 ├── LICENSE                     # MIT
 └── nsw-tenant-support/         # The skill (Agent Skills open standard)
@@ -59,11 +59,11 @@ Two routes:
 
 ```bash
 # Personal (all projects)
-git clone https://github.com/YOUR-USERNAME/nsw-tenant-support-skill.git
-cp -r nsw-tenant-support-skill/nsw-tenant-support ~/.claude/skills/
+git clone https://github.com/minstrelzxm/NSWTenantSupportSkill.git
+cp -r NSWTenantSupportSkill/nsw-tenant-support ~/.claude/skills/
 
 # Or project-scoped
-cp -r nsw-tenant-support-skill/nsw-tenant-support .claude/skills/
+cp -r NSWTenantSupportSkill/nsw-tenant-support .claude/skills/
 ```
 
 Start a new session and run `/skills` to confirm it loaded. It triggers automatically on matching questions, or invoke it directly with `/nsw-tenant-support`.
@@ -85,7 +85,7 @@ Several agents have adopted the same standard:
 - **Codex CLI** reads skills from `.agents/skills/` by default — copy the folder there.
 - **Cursor** supports skills through its plugin system; `.agents/skills/` is also recognised.
 - **VS Code (Copilot)** recognises both `.claude/skills/` and `.agents/skills/`, with extra paths configurable via `chat.agentSkillsLocations`.
-- Community tooling exists for cross-agent installs (e.g. `npx agent-skills-cli add YOUR-USERNAME/nsw-tenant-support-skill --agent codex`), though a manual folder copy is always sufficient.
+- Community tooling exists for cross-agent installs (e.g. `npx agent-skills-cli add minstrelzxm/NSWTenantSupportSkill --agent codex`), though a manual folder copy is always sufficient.
 
 Paths and support levels change quickly — check your agent's own documentation if the skill doesn't appear.
 
