@@ -4,6 +4,8 @@
 
 A skill for Anthropic's Claude that helps renters in New South Wales, Australia work through tenancy problems — repairs that never happen, agent harassment, termination notices, bond disputes, rent increases — by routing them to the right pathway, helping them build a written record, and always connecting them with **free specialist advice services**.
 
+Has your rental agent been abusive in emails and phone calls? Have you been personally threatened or racially discriminated against? Take up the law as your weapon and protect yourself. You are not alone — and you deserve to live happily.
+
 > **If you need help right now, you don't need this repository.**
 > Find your free local Tenants' Advice and Advocacy Service: **https://www.tenants.org.au/get-advice**
 > General legal triage (LawAccess NSW): **1300 888 529**
